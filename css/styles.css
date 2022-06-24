@@ -1,0 +1,101 @@
+/* TAG SELECTORS */
+
+ body {
+  background-image: url(https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  font-family: sans-serif;
+  padding: 20px;
+  color: #630606;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: Impact, serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Impact, serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-top: -25px;
+  border-radius: 50%;
+}
+
+p {
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  background-color: #990000;
+  border-color: #990000;
+}
+
+/* CLASS SELECTORS */
+
+.menu {
+  width: 80%;
+  max-width: 500px;
+  background-color: #FFDCAE;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.established {
+  font-style: italic;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .pizza {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+/* HOVERS */
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #990000;
+}
+
+a:active {
+  color: #630606;
+}
